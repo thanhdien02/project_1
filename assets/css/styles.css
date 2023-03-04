@@ -6,6 +6,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 body {
@@ -130,6 +131,18 @@ a {
 .row {
     display: flex;
     justify-content: space-between;
+}
+.row .img-client {
+    display: flex;
+    width: 204px;
+    height: 91px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.row .img-client:hover {
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 .clients {
     margin-top: 122px;
